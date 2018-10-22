@@ -1,14 +1,17 @@
 {
   "name": "@writetome51/get-with-decimal-shifted",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Takes number and returns it with decimal shifted by a given number places",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "numbers",
-    "decimal"
+    "move",
+    "decimal",
+    "precision",
+    "rounding"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
