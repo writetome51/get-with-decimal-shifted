@@ -1,47 +1,47 @@
-import { getWithDecimalShifted } from './getWithDecimalShifted';
+import { getWithDecimalShifted } from './index';
 
 
-console.log(getWithDecimalShifted(1, 111.2345));
+console.log(getWithDecimalShifted(111.2345, 1));
 
-console.log(getWithDecimalShifted(2, 111.2345));
+console.log(getWithDecimalShifted(111.2345, 2));
 
-console.log(getWithDecimalShifted(3, 111.2345));
+console.log(getWithDecimalShifted(111.2345, 3));
 
-console.log(getWithDecimalShifted(4, 111.2345));
+console.log(getWithDecimalShifted(111.2345, 4));
 
-console.log(getWithDecimalShifted(5, 111.2345));
+console.log(getWithDecimalShifted(111.2345, 5));
 
-console.log(getWithDecimalShifted(-1, 111.2345));
+console.log(getWithDecimalShifted(111.2345, -1));
 
-console.log(getWithDecimalShifted(-2, 111.2345));
+console.log(getWithDecimalShifted(111.2345, -2));
 
-console.log(getWithDecimalShifted(-3, 111.2345));
+console.log(getWithDecimalShifted(111.2345, -3));
 
-console.log(getWithDecimalShifted(-4, 111.2345));
+console.log(getWithDecimalShifted(111.2345, -4));
 
-console.log(getWithDecimalShifted(-5, 111.2345));
+console.log(getWithDecimalShifted(111.2345, -5));
 
-console.log(getWithDecimalShifted(-1, 0.004555));
+console.log(getWithDecimalShifted(0.004555, -1));
 
-console.log(getWithDecimalShifted(-2, 0.004555));
+console.log(getWithDecimalShifted(0.004555, -2));
 
-console.log(getWithDecimalShifted(-3, 0.004555));
+console.log(getWithDecimalShifted(0.004555, -3));
 
-console.log(getWithDecimalShifted(-4, 0.004555));
+console.log(getWithDecimalShifted(0.004555, -4));
 
-console.log(getWithDecimalShifted(-5, 0.004555));
-
-
-console.log(getWithDecimalShifted(-4, -11100.2345));
-
-console.log(getWithDecimalShifted(-5, -11100.2345));
+console.log(getWithDecimalShifted(0.004555, -5));
 
 
-console.log(getWithDecimalShifted(-4, -111000000));
+console.log(getWithDecimalShifted(-11100.2345, -4));
 
-console.log(getWithDecimalShifted(-5, -111000000));
+console.log(getWithDecimalShifted(-11100.2345, -5));
 
 
-console.log(getWithDecimalShifted(4, 11.10000));
+console.log(getWithDecimalShifted(-111000000, -4));
 
-console.log(getWithDecimalShifted(5, 11.10000));
+console.log(getWithDecimalShifted(-111000000, -5));
+
+
+console.log(getWithDecimalShifted(11.10000, 4));
+
+console.log(getWithDecimalShifted(11.10000, 5));

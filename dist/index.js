@@ -3,9 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var errorIfNotInteger_1 = require("basic-data-handling/errorIfNotInteger");
 var errorIfNotNumber_1 = require("basic-data-handling/errorIfNotNumber");
 // To move decimal to left, have numPlacesToMoveDecimal be a negative number.
-function getWithDecimalShifted(numPlacesToMoveDecimal, num) {
-    errorIfNotInteger_1.errorIfNotInteger(numPlacesToMoveDecimal);
+function getWithDecimalShifted(num, numPlacesToMoveDecimal) {
     errorIfNotNumber_1.errorIfNotNumber(num);
+    errorIfNotInteger_1.errorIfNotInteger(numPlacesToMoveDecimal);
     var factor = 1, i = -1, positiveNumPlaces = Math.abs(numPlacesToMoveDecimal);
     while (++i < positiveNumPlaces)
         factor *= 10;

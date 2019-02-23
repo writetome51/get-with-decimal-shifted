@@ -1,10 +1,11 @@
 {
   "name": "@writetome51/get-with-decimal-shifted",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Takes number and returns it with decimal shifted by a given number places",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [
     "numbers",
@@ -13,9 +14,17 @@
     "precision",
     "rounding"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/get-with-decimal-shifted.git"
+  },
   "author": "Steve Thompson",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/get-with-decimal-shifted/issues"
+  },
+  "homepage": "https://github.com/writetome51/get-with-decimal-shifted#readme",
   "dependencies": {
-    "basic-data-handling": "~1.0.13"
+    "basic-data-handling": "~1.0.15"
   }
 }
