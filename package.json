@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-with-decimal-shifted",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Takes number and returns it with decimal shifted by a given number places",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
