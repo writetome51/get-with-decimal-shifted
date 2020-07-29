@@ -11,6 +11,5 @@ export function getWithDecimalShifted(num, numPlacesToMoveDecimal): number {
 	let factor = 1, i = -1, positiveNumPlaces = Math.abs(numPlacesToMoveDecimal);
 	while (++i < positiveNumPlaces) factor *= 10;
 
-	if (numPlacesToMoveDecimal < 0) return (num / factor);
-	else return (num * factor);
+	return (numPlacesToMoveDecimal < 0 ? (num / factor) : (num * factor));
 }

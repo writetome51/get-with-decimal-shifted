@@ -1,7 +1,8 @@
 {
   "name": "@writetome51/get-with-decimal-shifted",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Takes number and returns it with decimal shifted by a given number places",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -25,7 +26,7 @@
   },
   "homepage": "https://github.com/writetome51/get-with-decimal-shifted#readme",
   "dependencies": {
-    "error-if-not-integer": "~1.0.0",
-    "error-if-not-finite-number": "~1.0.0"
+    "error-if-not-integer": "^2.0.0",
+    "error-if-not-finite-number": "^2.0.0"
   }
 }
