@@ -3,11 +3,7 @@
   "version": "3.0.0",
   "description": "Takes number and returns it with decimal shifted by a given number places",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
+  "main": "index.js",
   "keywords": [
     "numbers",
     "move",

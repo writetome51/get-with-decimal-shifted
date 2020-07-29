@@ -1,10 +1,10 @@
-import { errorIfNotInteger } from 'error-if-not-integer';
-import { errorIfNotFiniteNumber } from 'error-if-not-finite-number';
+import {errorIfNotInteger} from 'error-if-not-integer';
+import {errorIfNotFiniteNumber} from 'error-if-not-finite-number';
 
 
 // To move decimal to left, have numPlacesToMoveDecimal be a negative number.
 
-export function getWithDecimalShifted(num, numPlacesToMoveDecimal): number {
+export function getWithDecimalShifted(num, numPlacesToMoveDecimal) {
 	errorIfNotFiniteNumber(num);
 	errorIfNotInteger(numPlacesToMoveDecimal);
 
